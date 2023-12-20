@@ -1,0 +1,45 @@
+body{
+    display : flex;
+    background-image: url("narutobg.png.webp"); ;
+    
+}
+.info{
+   
+    background-color: aliceblue;
+    
+}
+#about{
+ inline-size: 400px;
+ overflow-wrap:  break-word;
+ 
+}
+
+#navbar{
+   border: 1px solid black;
+   width:fit-content;
+   margin-right: 20px;
+}
+ol {
+    counter-reset: item;
+    margin-right: 20px;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+    
+}
+
+li > a{
+    color: black;
+    text-decoration-line: none;
+    
+}
