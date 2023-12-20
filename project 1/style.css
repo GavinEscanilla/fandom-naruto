@@ -32,6 +32,9 @@ body{
     width: fit-content;
    
 }
+#character-name{
+    margin-left: 20%;
+}
 
 #navbar{
    border: 1px solid black;
@@ -39,7 +42,10 @@ body{
    margin-right: 20px;
 }
 
-
+ol {
+    counter-reset: item;
+    margin-right: 20px;
+}
 ol > li {
     counter-increment: item;
 }
