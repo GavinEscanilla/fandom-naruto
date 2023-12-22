@@ -1,14 +1,14 @@
 body{
     display : flex;
-   
+   overflow-wrap: break-word;
     background-image: url("narutobg.png.webp"); ;
     
 }
 .info{
     width: 100%;
     margin: 0 auto;
-    max-width: 50%;
-    padding-right: 10px;
+    padding: 20px;
+    max-width: fit-content;
     background-color: aliceblue;
     
 }
@@ -19,6 +19,30 @@ body{
 #article{
     margin-left: 10%;
     font-style: italic;
+    width: fit-content;
+}
+.info-card{
+    display: block;
+   border: 1px solid black;
+   width: 100px;
+   margin-right: 20px;
+   
+}
+#character-name{
+    display:inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    
+}
+#pfp{
+    display: block;
+    width: 20%;
+    align-items: center;
+
+   
+ 
 }
 .info *{
     margin-left: 5%;
@@ -26,34 +50,15 @@ body{
 }
 #about{
  inline-size: 400px;
- overflow-wrap:  break-word;
  
-}
-.info-card{
-    display:block;
-    border: 1px solid black;
-    height: fit-content;
-    width: 40%;
-    margin: 0;
-    padding: 0;
-}
-#character-name{
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 1px solid black;
-}
-#pfp{
-    display:block;
-    align-items: center;
-    margin: 0;
-    padding 0;
-  width: 40%;
-  object-fit: contain;
+ 
 }
 #navbar{
    border: 1px solid black;
    width:fit-content;
    margin-right: 20px;
+   word-wrap: break-word;
+   
   
 }
 
@@ -63,16 +68,21 @@ ol {
 }
 ol > li {
     counter-increment: item;
+    
 }
 
 ol ol > li {
     display: block;
+    overflow-wrap: break-word;
 }
 
 ol ol > li:before {
     content: counters(item, ".") ". ";
     margin-left: -20px;
     
+}
+li{
+    overflow-wrap: break-word;
 }
 
 li > a{
