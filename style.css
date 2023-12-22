@@ -1,0 +1,73 @@
+body{
+    display : flex;
+   
+    background-image: url("narutobg.png.webp"); ;
+    
+}
+.info{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 50%;
+    padding-right: 10px;
+    background-color: aliceblue;
+    
+}
+#mc-name{
+    margin-left: -1%;
+}
+#article{
+    margin-left: 10%;
+    font-style: italic;
+}
+.info *{
+    margin-left: 5%;
+}
+#about{
+ inline-size: 400px;
+ overflow-wrap:  break-word;
+ 
+}
+.info-card{
+    display:flex;
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    float: right;
+   
+}
+#character-name{
+    margin: 0 auto;
+    align-items: center;
+}
+
+#navbar{
+   border: 1px solid black;
+   width:fit-content;
+   margin-right: 20px;
+  
+}
+
+ol {
+    counter-reset: item;
+    margin-right: 20px;
+}
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+    
+}
+
+li > a{
+    color: black;
+    text-decoration-line: none;
+    
+}
