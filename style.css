@@ -14,6 +14,7 @@ body{
 }
 #mc-name{
     margin-left: -1%;
+    
 }
 #article{
     margin-left: 10%;
@@ -21,6 +22,7 @@ body{
 }
 .info *{
     margin-left: 5%;
+    width: 100%;
 }
 #about{
  inline-size: 400px;
@@ -28,19 +30,26 @@ body{
  
 }
 .info-card{
-    display:flex;
+    display:block;
     border: 1px solid black;
     height: fit-content;
-    width: fit-content;
-    position: relative;
-    float: right;
-   
+    width: 40%;
+    margin: 0;
+    padding: 0;
 }
 #character-name{
     margin: 0 auto;
-    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
-
+#pfp{
+    display:block;
+    align-items: center;
+    margin: 0;
+    padding 0;
+  width: 40%;
+  object-fit: contain;
+}
 #navbar{
    border: 1px solid black;
    width:fit-content;
