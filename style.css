@@ -2,13 +2,13 @@ body{
     display : flex;
    overflow-wrap: break-word;
     background-image: url("narutobg.png.webp"); ;
-    
+    background-color: orange;
 }
 .info{
     display: block;
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 60px;
     max-width: fit-content;
     background-color: aliceblue;
 }
@@ -29,7 +29,8 @@ body{
 }
 #character-name{
     display:block;
-    margin: 0 auto;
+   margin: 0;
+   padding: 0;
     text-align: center;
     border-bottom: 1px solid black;
     width: 100%;
@@ -40,6 +41,18 @@ body{
     border-bottom: 1px solid black;
     justify-content: center;
 }
+.infop{
+    margin: 0;
+    word-wrap: break-word;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+.infosubtitle{
+    padding-right: 10px;
+    border-right: 1px solid black;
+    
+}
+
 
 #about{
  inline-size: 900px;
