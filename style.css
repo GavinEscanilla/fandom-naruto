@@ -62,22 +62,19 @@ height: fit-content;
 .infop{
     margin: 0;
     word-wrap: break-word;
-
     background-color: grey;
     border-bottom: 1px solid black;
 }
 .infopx{
     margin: 0;
     word-wrap: break-word;
-
-
-    background-color: lightgray;
+    background-color: aliceblue;
     border-bottom: 1px solid black;
 }
 .infosubtitle{
     padding-right: 10px;
     border-right: 1px solid black;
-
+   background-color: lightgray;
     height: 100%;
 }
 .info-card a{
