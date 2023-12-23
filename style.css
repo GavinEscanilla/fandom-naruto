@@ -3,7 +3,7 @@ body{
    overflow-wrap: break-word;
     background-image: url("narutobg.png.webp"); ;
     background-color: orange;
-<<<<<<< HEAD
+
 }
 .socialsborder{
     display: block;
@@ -19,8 +19,7 @@ body{
     
     width: 100%;
     height: fit-content;
-=======
->>>>>>> 66c2b4a1bade0d57c66f84619267aaa7388e364c
+
 }
 .info{
     display: block;
@@ -63,32 +62,32 @@ height: fit-content;
 .infop{
     margin: 0;
     word-wrap: break-word;
-<<<<<<< HEAD
+
     background-color: grey;
     border-bottom: 1px solid black;
 }
 .infopx{
     margin: 0;
     word-wrap: break-word;
-=======
->>>>>>> 66c2b4a1bade0d57c66f84619267aaa7388e364c
+
+
     background-color: lightgray;
     border-bottom: 1px solid black;
 }
 .infosubtitle{
     padding-right: 10px;
     border-right: 1px solid black;
-<<<<<<< HEAD
+
     height: 100%;
 }
 .info-card a{
     text-decoration: none;
 }
-=======
+
     
 
 
->>>>>>> 66c2b4a1bade0d57c66f84619267aaa7388e364c
+
 
 #about{
  inline-size: 900px;
