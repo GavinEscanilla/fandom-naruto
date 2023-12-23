@@ -4,19 +4,79 @@ body{
     background-image: url("narutobg.png.webp"); ;
     background-color: orange;
 }
+.socialsborder{
+    display: block;
+    border: 1px solid black;
+}
+#narutosh{
+    display: block;
+    width: 100%;
+    height:fit-content;
+}
+.socials{
+    display: block;
+    
+    width: 100%;
+    height: fit-content;
+}
 .info{
     display: block;
     width: 70%;
     margin: 0 auto;
-    padding: 60px
-    
+    padding: 60px;
+    max-width: fit-content;
+    background-color: aliceblue;
+height: fit-content;
+}
+
+#mc-name{
+    margin-left: -1%;
+}
+#article{
+    margin-left: 10%;
+    font-style: italic;
+    width: fit-content;
+}
+.info-card{
+    display: block;
+   border: 1px solid black;
+   width: 30%;
+   float: right;
+}
+#character-name{
+    display:block;
+   margin: 0;
+   padding: 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+#pfp{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+    justify-content: center;
+}
+.infop{
+    margin: 0;
+    word-wrap: break-word;
+    background-color: grey;
+    border-bottom: 1px solid black;
+}
+.infopx{
+    margin: 0;
+    word-wrap: break-word;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
 }
 .infosubtitle{
     padding-right: 10px;
     border-right: 1px solid black;
-    
+    height: 100%;
 }
-
+.info-card a{
+    text-decoration: none;
+}
 
 #about{
  inline-size: 900px;
@@ -25,12 +85,8 @@ body{
 }
 #navbar{
     display: block;
-   border: 1px solid black;
-   width:fit-content;
+    width: 100%;
    margin-right: 20px;
-   
-   
-  
 }
 
 ol {
@@ -52,12 +108,12 @@ ol ol > li:before {
     margin-left: -20px;
     
 }
-li{
-   
-}
 
 li > a{
     color: black;
     text-decoration-line: none;
+    
+}
+#bg{
     
 }
