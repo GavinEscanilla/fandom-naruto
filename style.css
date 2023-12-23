@@ -16,7 +16,7 @@ body{
 }
 .socials{
     display: block;
-    
+    border: 1px solid black;
     width: 100%;
     height: fit-content;
 
@@ -80,12 +80,6 @@ height: fit-content;
 .info-card a{
     text-decoration: none;
 }
-
-    
-
-
-
-
 #about{
  inline-size: 900px;
  
