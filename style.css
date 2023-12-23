@@ -2,44 +2,21 @@ body{
     display : flex;
    overflow-wrap: break-word;
     background-image: url("narutobg.png.webp"); ;
-    
+    background-color: orange;
 }
 .info{
     display: block;
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
-    padding: 20px;
-    max-width: fit-content;
-    background-color: aliceblue;
+    padding: 60px
+    
+}
+.infosubtitle{
+    padding-right: 10px;
+    border-right: 1px solid black;
+    
 }
 
-#mc-name{
-    margin-left: -1%;
-}
-#article{
-    margin-left: 10%;
-    font-style: italic;
-    width: fit-content;
-}
-.info-card{
-    display: block;
-   border: 1px solid black;
-   width: 30%;
-   float: right;
-}
-#character-name{
-    display:block;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 1px solid black;
-    width: 100%;
-}
-#pfp{
-    display: block;
-    width: 100%;
-    border-bottom: 1px solid black;
-    justify-content: center;
-}
 
 #about{
  inline-size: 900px;
