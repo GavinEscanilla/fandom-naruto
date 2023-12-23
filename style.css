@@ -5,16 +5,16 @@ body{
     
 }
 .info{
+    display: block;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
     max-width: fit-content;
     background-color: aliceblue;
-    
 }
+
 #mc-name{
     margin-left: -1%;
-    
 }
 #article{
     margin-left: 10%;
@@ -24,40 +24,34 @@ body{
 .info-card{
     display: block;
    border: 1px solid black;
-   width: 100px;
-   margin-right: 20px;
-   
+   width: 30%;
+   float: right;
 }
 #character-name{
-    display:inline-block;
+    display:block;
     margin: 0 auto;
     text-align: center;
     border-bottom: 1px solid black;
     width: 100%;
-    
 }
 #pfp{
     display: block;
-    width: 20%;
-    align-items: center;
-
-   
- 
-}
-.info *{
-    margin-left: 5%;
     width: 100%;
+    border-bottom: 1px solid black;
+    justify-content: center;
 }
+
 #about{
- inline-size: 400px;
+ inline-size: 900px;
  
  
 }
 #navbar{
+    display: block;
    border: 1px solid black;
    width:fit-content;
    margin-right: 20px;
-   word-wrap: break-word;
+   
    
   
 }
@@ -73,7 +67,7 @@ ol > li {
 
 ol ol > li {
     display: block;
-    overflow-wrap: break-word;
+   
 }
 
 ol ol > li:before {
@@ -82,7 +76,7 @@ ol ol > li:before {
     
 }
 li{
-    overflow-wrap: break-word;
+   
 }
 
 li > a{
