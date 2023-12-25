@@ -3,12 +3,12 @@ body{
    overflow-wrap: break-word;
     background-image: url("narutobg.png.webp"); ;
     background-color: orange;
- overflow: hidden;
+ 
 }
 .socialsborder{
     display: block;
     height:100vh;
-    border: 1px solid black;
+  
     
 }
 #narutosh{
@@ -30,8 +30,9 @@ body{
     padding: 60px;
     max-width: fit-content;
     background-color: aliceblue;
-    height: fit-content;
-    overflow: auto;
+    height: 900px;
+    overflow: hidden;
+    overflow-y: auto;
     float: right;
 
 }
