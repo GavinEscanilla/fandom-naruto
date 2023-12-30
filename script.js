@@ -6,10 +6,11 @@ const pfp =getElementById('pfp');
 
 
  function img1() {
-document.pfp.src="Naruto_newshot.webp";
-
-
+document.getElementById('pfp').src="Naruto_newshot.webp";
 }
 function img2() {
-document.#pfp.src="Naruto_Part_II.webp";
+document.getElementById('pfp').src="Naruto_Part_II.webp";
 }
+function img3() {
+document.getElementById('pfp').src="Naruto_Part_III.webp";
+    }
