@@ -2,15 +2,19 @@ body{
     display : flex;
    overflow-wrap: break-word;
     background-image: url("narutobg.png.webp"); ;
-    background-color: orange;
+    background-color: red;
  
 }
 .socialsborder{
     display: block;
     height:100vh;
-  
-    
 }
+    button{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
 #narutosh{
     display: block;
     width: 100%;
