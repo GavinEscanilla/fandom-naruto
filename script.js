@@ -6,10 +6,10 @@ const pfp =getElementById('pfp');
 
 
  function img1() {
-getElementById("I").src="Naruto_newshot.webp";
+document.pfp.src="Naruto_newshot.webp";
 
 
 }
 function img2() {
-getElementById("II").src="Naruto_Part_II.webp";
+document.#pfp.src="Naruto_Part_II.webp";
 }
