@@ -8,13 +8,22 @@ body{
     display: block;
     height:100vh;
 }
+#buttonholder{
+display:flex;
+ width: 100%;
+    height: 100;
+}
     button{
         display: block;
         width: 100%;
         height: 100%;
         cursor: pointer;
     }
-
+.addtext{
+    display: flex;
+    width: 30px;
+    height: 40px;
+}
 #narutosh{
     display: block;
     width: 100%;
@@ -129,5 +138,10 @@ li > a{
     text-decoration-line: none;
 }
 #bg{
-    
+    display: flex;
+    border: 1px solid rgba(255,255,255);
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 20px;
 }
