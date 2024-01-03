@@ -153,3 +153,10 @@ li > a{
 hr{
     padding: 0;
 }
+.editcontent{
+    display: block;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 30px;
+}

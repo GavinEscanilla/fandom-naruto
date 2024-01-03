@@ -2,6 +2,8 @@ const button1 = document.getElementById('I');
 const button2 = document.getElementById('II');
 const button3 = document.getElementById('III');
 const pfp =getElementById('pfp');
+const changetext = document.querySelectorAll('.editcontent')
+const sectioninfos = document.querySelectorAll('.sectioninfos')
 
 
  function img1() {
