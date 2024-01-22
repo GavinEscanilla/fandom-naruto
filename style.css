@@ -1,6 +1,5 @@
 body{
     display : flex;
-   overflow-wrap: break-word;
     background-image: url("narutobg.png.webp"); ;
     background-color: orange;
 }
@@ -101,7 +100,7 @@ body{
     text-decoration: none;
 }
 #about{
- inline-size: 900px;
+    width: fit-content;
 }
 #navbar{
     border-radius: 20px;
